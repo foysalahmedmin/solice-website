@@ -39,7 +39,7 @@ const QuotationSection = ({
             )}
             {author && (
               <div>
-                <strong className="block text-2xl font-black text-tertiary">
+                <strong className="block text-2xl text-tertiary">
                   {author}
                 </strong>
                 {authorTitle && (

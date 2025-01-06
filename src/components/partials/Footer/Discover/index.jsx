@@ -10,7 +10,7 @@ const Discover = () => {
 
   return (
     <div className="space-y-6">
-      <p className="text-lg font-black uppercase">Discover</p>
+      <p className="text-lg uppercase">Discover</p>
       <ul className="">
         {links?.map((item, index) => (
           <li key={index}>

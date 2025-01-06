@@ -14,7 +14,7 @@ const Company = () => {
 
   return (
     <div className="space-y-6">
-      <p className="text-lg font-black">Company</p>
+      <p className="text-lg">Company</p>
       <ul className="">
         {links?.map((item, index) => (
           <li key={index}>

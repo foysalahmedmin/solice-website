@@ -14,7 +14,7 @@ const Legal = () => {
 
   return (
     <div className="space-y-6">
-      <p className="text-lg font-black">Legal</p>
+      <p className="text-lg">Legal</p>
       <ul className="">
         {partnerships?.map((item, index) => (
           <li key={index}>

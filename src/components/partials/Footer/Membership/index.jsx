@@ -12,7 +12,7 @@ const Membership = () => {
 
   return (
     <div className="space-y-6">
-      <p className="text-lg font-black uppercase">Membership</p>
+      <p className="text-lg uppercase">Membership</p>
       <ul className="">
         {links?.map((item, index) => (
           <li key={index}>
