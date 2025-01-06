@@ -6,6 +6,7 @@ import ExperiencePage from "@/pages/(common)/ExperiencePage";
 import HomePage from "@/pages/(common)/HomePage";
 import LocationPage from "@/pages/(common)/LocationPage";
 import ServicePage from "@/pages/(common)/ServicePage";
+import TeamPage from "@/pages/(common)/TeamPage";
 
 // Partials Pages
 import ErrorPage from "@/pages/(partials)/ErrorPage";
@@ -39,8 +40,12 @@ export const routes = [
             element: <LocationPage />,
           },
           {
-            path: "/experience",
+            path: "/experiences",
             element: <ExperiencePage />,
+          },
+          {
+            path: "/team",
+            element: <TeamPage />,
           },
         ],
       },

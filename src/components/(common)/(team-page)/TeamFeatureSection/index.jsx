@@ -1,19 +1,25 @@
 import { SplitCard } from "@/components/partials/Cards/SplitCard";
 
-const ServiceFeatureSection = () => {
+const TeamFeatureSection = () => {
   const data = [
     {
-      image: "/images/(service-page)/feature-1.jpg",
-      title: "Reconnect",
+      image: "/images/(team-page)/feature-1.jpg",
+      title: (
+        <>
+          The Founder
+          <br />
+          Dr Liza Osagie
+        </>
+      ),
       description: (
         <>
           <p>
-            We create out-of-this-world bespoke therapies and experiences that
-            transcend the ordinary.
-            <br /> <br />
-            Immersive experiences designed to restore and reignite your health,
-            brought to you in your home or held at one of our world class
-            properties.
+            An award-winning orthopaedic surgeon who trained in both New York
+            and London. Her PhD was in advanced research into the use of stem
+            cells for healing which prompted her passion for harnessing science
+            and art to achieve true modern wellbeing. From here, Dr
+            Osagie-Clouard pioneered an emerging model in personalised,
+            preventative healthcare and SOLICE was born.
           </p>
         </>
       ),
@@ -32,4 +38,4 @@ const ServiceFeatureSection = () => {
   );
 };
 
-export default ServiceFeatureSection;
+export default TeamFeatureSection;

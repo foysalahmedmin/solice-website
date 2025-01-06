@@ -1,11 +1,11 @@
-import ServiceBannerSection from "@/components/(common)/(service-page)/ServiceBannerSection";
-import ServiceFeatureSection from "@/components/(common)/(service-page)/ServiceFeatureSection";
+import TeamBannerSection from "@/components/(common)/(team-page)/TeamBannerSection";
+import TeamFeatureSection from "@/components/(common)/(team-page)/TeamFeatureSection";
 
 const TeamPage = () => {
   return (
     <main>
-      <ServiceBannerSection />
-      <ServiceFeatureSection />
+      <TeamBannerSection />
+      <TeamFeatureSection />
     </main>
   );
 };

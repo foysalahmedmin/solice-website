@@ -10,22 +10,22 @@ const routes = [
     children: [
       {
         label: "Services",
-        path: "https://solice.health/services/",
+        path: "/services",
         text: "Tailored Health for Meaningful Change",
       },
       {
         label: "Location",
-        path: "https://solice.health/location/",
+        path: "/location",
         text: "Whenever and Wherever You Are",
       },
       {
         label: "Experiences",
-        path: "https://solice.health/experiences/",
+        path: "/experiences",
         text: "Transcend the Ordinary to Reignite Your Health",
       },
       {
         label: "Team",
-        path: "https://solice.health/team/",
+        path: "/team",
         text: "Clinician Founded with Recognised Experts",
       },
     ],
@@ -35,17 +35,17 @@ const routes = [
     children: [
       {
         label: "Individual & Family GP",
-        path: "https://solice.health/individual-family-gp/",
+        path: "/individual-family-gp",
         text: "Assuring your health",
       },
       {
         label: "Longevity",
-        path: "https://solice.health/longevity/",
+        path: "/longevity",
         text: "A life lived well",
       },
       {
         label: "Seasonal",
-        path: "https://solice.health/seasonal/",
+        path: "/seasonal",
         text: "3-month deep dive",
       },
     ],
@@ -63,37 +63,37 @@ const routesMobile = [
   },
   {
     label: "Services",
-    path: "https://solice.health/services/",
+    path: "/services",
     text: "Tailored Health for Meaningful Change",
   },
   {
     label: "Location",
-    path: "https://solice.health/location/",
+    path: "/location",
     text: "Whenever and Wherever You Are",
   },
   {
     label: "Experiences",
-    path: "https://solice.health/experiences/",
+    path: "/experiences",
     text: "Transcend the Ordinary to Reignite Your Health",
   },
   {
     label: "Team",
-    path: "https://solice.health/team/",
+    path: "/team",
     text: "Clinician Founded with Recognised Experts",
   },
   {
     label: "Individual & Family GP",
-    path: "https://solice.health/individual-family-gp/",
+    path: "/individual-family-gp",
     text: "Assuring your health",
   },
   {
     label: "Longevity",
-    path: "https://solice.health/longevity/",
+    path: "/longevity",
     text: "A life lived well",
   },
   {
     label: "Seasonal",
-    path: "https://solice.health/seasonal/",
+    path: "/seasonal",
     text: "3-month deep dive",
   },
   {

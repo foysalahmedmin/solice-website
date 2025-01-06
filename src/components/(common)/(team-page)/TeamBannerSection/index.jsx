@@ -9,10 +9,10 @@ import {
 
 const TeamBannerSection = () => {
   return (
-    <BannerSection className="dark">
+    <BannerSection>
       <BannerBackground
         //  iframe="https://player.vimeo.com/video/844556204?h=83f2a719c2&autoplay=1&loop=1&muted=1&background=1"
-        image="/images/(service-page)/banner-image.jpg"
+        image="/images/(team-page)/banner-image.jpg"
       />
       <BannerContainer>
         <BannerContent>
