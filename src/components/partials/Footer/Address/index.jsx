@@ -6,7 +6,9 @@ const Address = () => {
   return (
     <div className="space-y-6">
       <Logo className="text-xl text-light" />
-      <p className="text-lg">66 Grosvenor Street, London W1K 3JL</p>
+      <p className="text-lg">
+        Aegon House 13 Lanark Square (Ground Floor East) London E14 3LP
+      </p>
       <ul className="flex items-center gap-4">
         <li>
           <Link>

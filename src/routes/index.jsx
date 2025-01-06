@@ -2,6 +2,7 @@
 import CommonLayout from "@/components/layouts/CommonLayout";
 import RootLayout from "@/components/layouts/RootLayout";
 import AboutPage from "@/pages/(common)/AboutPage";
+import ContactPage from "@/pages/(common)/ContactPage";
 import ExperiencePage from "@/pages/(common)/ExperiencePage";
 import HomePage from "@/pages/(common)/HomePage";
 import LocationPage from "@/pages/(common)/LocationPage";
@@ -46,6 +47,10 @@ export const routes = [
           {
             path: "/team",
             element: <TeamPage />,
+          },
+          {
+            path: "/contact-us",
+            element: <ContactPage />,
           },
         ],
       },
