@@ -28,7 +28,7 @@ const LongevityFeatureSection = () => {
           <br /> <br />
           <ul className="ml-4 list-outside list-disc space-y-4">
             <li>
-              <span style="font-weight: 400;">
+              <span className="font-normal">
                 Full body MRI, low resolution CT, DEXA
               </span>
             </li>
