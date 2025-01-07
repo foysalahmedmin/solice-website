@@ -8,9 +8,11 @@ import HomePage from "@/pages/(common)/HomePage";
 import IndividualFamilyPage from "@/pages/(common)/IndividualFamilyPage";
 import LocationPage from "@/pages/(common)/LocationPage";
 import LongevityPage from "@/pages/(common)/LongevityPage";
+import PrivacyPolicyPage from "@/pages/(common)/PrivacyPolicyPage";
 import SeasonalPage from "@/pages/(common)/SeasonalPage";
 import ServicePage from "@/pages/(common)/ServicePage";
 import TeamPage from "@/pages/(common)/TeamPage";
+import TermsPage from "@/pages/(common)/TermsPage";
 
 // Partials Pages
 import ErrorPage from "@/pages/(partials)/ErrorPage";
@@ -66,6 +68,14 @@ export const routes = [
           {
             path: "/seasonal",
             element: <SeasonalPage />,
+          },
+          {
+            path: "/terms",
+            element: <TermsPage />,
+          },
+          {
+            path: "/privacy-policy",
+            element: <PrivacyPolicyPage />,
           },
         ],
       },

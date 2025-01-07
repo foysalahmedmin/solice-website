@@ -12,7 +12,7 @@ const SeasonalBannerSectionMember = () => {
   return (
     <BannerSection className="dark">
       <BannerBackground image="/images/(seasonal-page)/banner-image-member.jpg" />
-      <BannerContainer className="bg-dark/50">
+      <BannerContainer className="bg-dark/25">
         <BannerContent className="md:space-y-6">
           <BannerDescription className="text-lg uppercase md:text-xl">
             <p>Become a Member</p>

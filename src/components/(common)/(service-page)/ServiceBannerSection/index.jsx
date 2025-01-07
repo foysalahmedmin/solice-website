@@ -11,7 +11,7 @@ const ServiceBannerSection = () => {
   return (
     <BannerSection className="dark">
       <BannerBackground image="/images/(service-page)/banner-image.jpg" />
-      <BannerContainer className="bg-dark/50">
+      <BannerContainer className="bg-dark/25">
         <BannerContent>
           <BannerTitle>The First of its Kind</BannerTitle>
           <BannerDescription>

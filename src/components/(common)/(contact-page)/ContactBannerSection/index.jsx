@@ -14,7 +14,7 @@ const ContactBannerSection = () => {
         //  iframe="https://player.vimeo.com/video/844556204?h=83f2a719c2&autoplay=1&loop=1&muted=1&background=1"
         image="/images/(contact-page)/banner-image.jpg"
       />
-      <BannerContainer className="bg-dark/50">
+      <BannerContainer className="bg-dark/25">
         <BannerContent>
           <BannerTitle>Welcome to SOLICE</BannerTitle>
           <BannerDescription>

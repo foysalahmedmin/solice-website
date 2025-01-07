@@ -11,7 +11,7 @@ const ExperienceBannerSection = () => {
   return (
     <BannerSection className="dark">
       <BannerBackground image="/images/(experience-page)/banner-image.jpg" />
-      <BannerContainer className="bg-dark/50">
+      <BannerContainer className="bg-dark/25">
         <BannerContent>
           <BannerTitle>Imagine the Unimaginable</BannerTitle>
           <BannerDescription>

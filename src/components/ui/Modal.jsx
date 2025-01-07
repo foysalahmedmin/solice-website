@@ -27,7 +27,7 @@ const modalVariants = cva("group/modal modal z-[1000]", {
 const modalBackdropVariants = cva("modal-backdrop z-[100]", {
   variants: {
     variant: {
-      default: "bg-dark/50",
+      default: "bg-dark/25",
       none: "",
     },
     size: {

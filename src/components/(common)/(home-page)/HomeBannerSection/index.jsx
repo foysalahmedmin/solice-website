@@ -15,7 +15,7 @@ const HomeBannerSection = () => {
         iframe="https://player.vimeo.com/video/844556204?h=83f2a719c2&autoplay=1&loop=1&muted=1&background=1"
         // image="/images/(home-page)/banner-image.jpg"
       />
-      <BannerContainer className="bg-dark/50">
+      <BannerContainer className="bg-dark/25">
         <BannerContent>
           <BannerTitle>Discover the Art of Being Well</BannerTitle>
           <BannerDescription>

@@ -27,7 +27,7 @@ const drawerVariants = cva("group/drawer drawer z-[1000]", {
 const drawerBackdropVariants = cva("drawer-backdrop z-[100]", {
   variants: {
     variant: {
-      default: "bg-dark/50",
+      default: "bg-dark/25",
       none: "",
     },
     size: {
