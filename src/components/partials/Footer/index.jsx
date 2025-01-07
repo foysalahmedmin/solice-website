@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
         <div className="bg-card">
           <div className="container py-4">
-            <div>© Solice Health 2024</div>
+            <div>© ARKangel Clinic {new Date().getFullYear()}</div>
           </div>
         </div>
       </footer>

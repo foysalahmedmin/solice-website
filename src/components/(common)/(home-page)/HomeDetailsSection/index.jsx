@@ -63,7 +63,7 @@ const HomeDetailsSection = () => {
                 Your Concierge
               </h4>
               <p>
-                SOLICE is where healthcare meets hospitality. You are supported
+                ARKangel is where healthcare meets hospitality. You are supported
                 by our medical concierge team removing the administration of
                 managing your day-to-day health needs, delivering a superior
                 service that surpasses expectations.

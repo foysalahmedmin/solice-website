@@ -4,10 +4,10 @@ const Membership = () => {
   const links = [
     {
       label: "Individual & Family GP",
-      url: "https://solice.health/individual-family-gp/",
+      url: "https://ARKangel.health/individual-family-gp/",
     },
-    { label: "Longevity", url: "https://solice.health/longevity/" },
-    { label: "Seasonal", url: "https://solice.health/seasonal" },
+    { label: "Longevity", url: "https://ARKangel.health/longevity/" },
+    { label: "Seasonal", url: "https://ARKangel.health/seasonal" },
   ];
 
   return (

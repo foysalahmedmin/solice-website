@@ -14,8 +14,13 @@ const routes = [
         text: "Tailored Health for Meaningful Change",
       },
       {
-        label: "Location",
-        path: "/location",
+        label: "Treatments",
+        path: "/treatments",
+        text: "Whenever and Wherever You Are",
+      },
+      {
+        label: "Locations",
+        path: "/locations",
         text: "Whenever and Wherever You Are",
       },
       {
@@ -67,8 +72,13 @@ const routesMobile = [
     text: "Tailored Health for Meaningful Change",
   },
   {
-    label: "Location",
-    path: "/location",
+    label: "Treatments",
+    path: "/treatments",
+    text: "Whenever and Wherever You Are",
+  },
+  {
+    label: "Locations",
+    path: "/locations",
     text: "Whenever and Wherever You Are",
   },
   {
@@ -136,7 +146,7 @@ const NavMenu = ({ isOpen, setIsOpen }) => {
             </Button>
           </div>
           <ul className="flex size-full flex-col gap-[1em]">
-            <NavItems routes={routesMobile} />
+            <NavItems isOpen={isOpen} setIsOpen={setIsOpen} routes={routesMobile} />
           </ul>
         </div>
       </div>

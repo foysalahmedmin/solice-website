@@ -11,7 +11,7 @@ const HomeBioSection = () => {
     <BioSection className="bg-card">
       <BioContainer>
         <BioContent>
-          <BioTitle>Welcome to solice</BioTitle>
+          <BioTitle>Welcome to ARKangel</BioTitle>
           <BioDescription>
             <p>
               A pioneering concept like no other, we provide an integrated

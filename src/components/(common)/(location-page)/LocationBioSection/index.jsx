@@ -21,7 +21,7 @@ const LocationBioSection = () => {
           </BioDescription>
           <BioDescription>
             <p>
-              The SOLICE philosophy values conversations over consultations.
+              The ARKangel philosophy values conversations over consultations.
               Each floor is dedicated to see one member at a time and provides a
               private space to discuss care and receive treatment.
             </p>

@@ -4,7 +4,7 @@ const HomeFeatureSection = () => {
   const data = [
     {
       image: "/images/(home-page)/feature-1.jpg",
-      title: "The SOLICE Difference",
+      title: "The ARKangel Difference",
       description: (
         <>
           <p>

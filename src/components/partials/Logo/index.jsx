@@ -11,7 +11,7 @@ const Logo = forwardRef(({ className, ...props }, ref) => {
       {...props}
       ref={ref}
     >
-      <img className="h-[2.25em]" src="/logo.png" alt="" />
+      <img className="h-[2.25em] rounded" src="/logo.png" alt="" />
     </div>
   );
 });

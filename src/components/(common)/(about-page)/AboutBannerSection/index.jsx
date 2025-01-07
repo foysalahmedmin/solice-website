@@ -21,7 +21,7 @@ const AboutBannerSection = () => {
           <BannerTitle>Our Story</BannerTitle>
           <BannerDescription>
             <p>
-              SOLICE was founded to deliver medicine without boundaries. <br />
+              ARKangel was founded to deliver medicine without boundaries. <br />
               Our ethos is rooted in modern preventative care, dedicated to you
               and every aspect of your health.
             </p>

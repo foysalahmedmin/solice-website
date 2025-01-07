@@ -13,6 +13,7 @@ import SeasonalPage from "@/pages/(common)/SeasonalPage";
 import ServicePage from "@/pages/(common)/ServicePage";
 import TeamPage from "@/pages/(common)/TeamPage";
 import TermsPage from "@/pages/(common)/TermsPage";
+import TreatmentPage from "@/pages/(common)/TreatmentPage";
 
 // Partials Pages
 import ErrorPage from "@/pages/(partials)/ErrorPage";
@@ -44,6 +45,10 @@ export const routes = [
           {
             path: "/services",
             element: <ServicePage />,
+          },
+          {
+            path: "/treatments",
+            element: <TreatmentPage />,
           },
           {
             path: "/location",
