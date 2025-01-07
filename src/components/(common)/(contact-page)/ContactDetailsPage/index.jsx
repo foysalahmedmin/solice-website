@@ -6,7 +6,7 @@ const ContactDetails = () => {
       <div className="container">
         <div className="grid gap-16 lg:grid-cols-2">
           <div className="space-y-6 md:space-y-8">
-            <p className="text-xl uppercase">Contact us</p>
+            <p className="block grow text-xl uppercase">Contact us</p>
             <p>
               For membership enquiries, please contact us via email, telephone
               or by submitting an online enquiry form.
@@ -19,8 +19,8 @@ const ContactDetails = () => {
           <div>
             <form className="space-y-6">
               <div className="grid grid-cols-2 gap-4 gap-y-6">
-                <label className="block space-y-2">
-                  <span className="uppercase">
+                <label className="flex flex-col space-y-2 self-stretch">
+                  <span className="block grow uppercase">
                     REASON FOR CONTACTING SOLICE
                   </span>
                   <select className="h-form-control w-full border-b border-b-foreground bg-transparent outline-none">
@@ -36,36 +36,36 @@ const ContactDetails = () => {
                     </>
                   </select>
                 </label>
-                <label className="block space-y-2">
-                  <span className="uppercase">FIRST NAME</span>
+                <label className="flex flex-col space-y-2 self-stretch">
+                  <span className="block grow uppercase">FIRST NAME</span>
                   <input
                     type="text"
                     className="h-form-control w-full border-b border-b-foreground bg-transparent outline-none"
                   />
                 </label>
-                <label className="block space-y-2">
-                  <span className="uppercase">SURNAME</span>
+                <label className="flex flex-col space-y-2 self-stretch">
+                  <span className="block grow uppercase">SURNAME</span>
                   <input
                     type="text"
-                    className="h-form-control w-full border-b border-b-foreground bg-transparent outline-none"
+                    className="mt-auto block h-form-control w-full border-b border-b-foreground bg-transparent outline-none"
                   />
                 </label>
-                <label className="block space-y-2">
-                  <span className="uppercase">EMAIL</span>
+                <label className="flex flex-col space-y-2 self-stretch">
+                  <span className="block grow uppercase">EMAIL</span>
                   <input
                     type="email"
                     className="h-form-control w-full border-b border-b-foreground bg-transparent outline-none"
                   />
                 </label>
-                <label className="block space-y-2">
-                  <span className="uppercase">PHONE NUMBER</span>
+                <label className="flex flex-col space-y-2 self-stretch">
+                  <span className="block grow uppercase">PHONE NUMBER</span>
                   <input
                     type="tel"
                     className="h-form-control w-full border-b border-b-foreground bg-transparent outline-none"
                   />
                 </label>
-                <label className="block space-y-2">
-                  <span className="uppercase">
+                <label className="flex flex-col space-y-2 self-stretch">
+                  <span className="block grow uppercase">
                     DO YOU CONSENT FOR SOLICE TO CONTACT YOU?
                   </span>
                   <select className="h-form-control w-full border-b border-b-foreground bg-transparent outline-none">
@@ -75,8 +75,10 @@ const ContactDetails = () => {
                     </>
                   </select>
                 </label>
-                <label className="block space-y-2 md:col-span-2">
-                  <span className="uppercase">COUNTRY OF RESIDENCE</span>
+                <label className="flex flex-col space-y-2 self-stretch md:col-span-2">
+                  <span className="block grow uppercase">
+                    COUNTRY OF RESIDENCE
+                  </span>
                   <select className="h-form-control w-full border-b border-b-foreground bg-transparent outline-none">
                     <>
                       <option value="Afghanistan">Afghanistan</option>
@@ -306,8 +308,8 @@ const ContactDetails = () => {
                     </>
                   </select>
                 </label>
-                <label className="block space-y-2 md:col-span-2">
-                  <span className="uppercase">
+                <label className="flex flex-col space-y-2 self-stretch md:col-span-2">
+                  <span className="block grow uppercase">
                     WHERE DID YOU HEAR ABOUT SOLICE?{" "}
                   </span>
                   <select className="h-form-control w-full border-b border-b-foreground bg-transparent outline-none">
@@ -321,8 +323,8 @@ const ContactDetails = () => {
                     </>
                   </select>
                 </label>
-                <label className="block space-y-2 md:col-span-2">
-                  <span className="uppercase">ENQUIRY </span>
+                <label className="flex flex-col space-y-2 self-stretch md:col-span-2">
+                  <span className="block grow uppercase">ENQUIRY </span>
                   <textarea
                     cols={5}
                     className="w-full border-b border-b-foreground bg-transparent py-2 outline-none"

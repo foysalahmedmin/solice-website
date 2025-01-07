@@ -12,10 +12,10 @@ const HomeBannerSection = () => {
   return (
     <BannerSection className="dark">
       <BannerBackground
-        //  iframe="https://player.vimeo.com/video/844556204?h=83f2a719c2&autoplay=1&loop=1&muted=1&background=1"
-        image="/images/(home-page)/banner-image.jpg"
+        iframe="https://player.vimeo.com/video/844556204?h=83f2a719c2&autoplay=1&loop=1&muted=1&background=1"
+        // image="/images/(home-page)/banner-image.jpg"
       />
-      <BannerContainer>
+      <BannerContainer className="bg-dark/50">
         <BannerContent>
           <BannerTitle>Discover the Art of Being Well</BannerTitle>
           <BannerDescription>

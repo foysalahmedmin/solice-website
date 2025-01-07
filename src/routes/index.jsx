@@ -5,7 +5,10 @@ import AboutPage from "@/pages/(common)/AboutPage";
 import ContactPage from "@/pages/(common)/ContactPage";
 import ExperiencePage from "@/pages/(common)/ExperiencePage";
 import HomePage from "@/pages/(common)/HomePage";
+import IndividualFamilyPage from "@/pages/(common)/IndividualFamilyPage";
 import LocationPage from "@/pages/(common)/LocationPage";
+import LongevityPage from "@/pages/(common)/LongevityPage";
+import SeasonalPage from "@/pages/(common)/SeasonalPage";
 import ServicePage from "@/pages/(common)/ServicePage";
 import TeamPage from "@/pages/(common)/TeamPage";
 
@@ -29,6 +32,10 @@ export const routes = [
             element: <HomePage />,
           },
           {
+            path: "/contact-us",
+            element: <ContactPage />,
+          },
+          {
             path: "/about",
             element: <AboutPage />,
           },
@@ -49,8 +56,16 @@ export const routes = [
             element: <TeamPage />,
           },
           {
-            path: "/contact-us",
-            element: <ContactPage />,
+            path: "/individual-family-gp",
+            element: <IndividualFamilyPage />,
+          },
+          {
+            path: "/longevity",
+            element: <LongevityPage />,
+          },
+          {
+            path: "/seasonal",
+            element: <SeasonalPage />,
           },
         ],
       },

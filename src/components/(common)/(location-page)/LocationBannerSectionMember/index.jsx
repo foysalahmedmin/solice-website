@@ -11,8 +11,8 @@ import {
 const LocationBannerSectionMember = () => {
   return (
     <BannerSection className="dark">
-      <BannerBackground image="/images/(home-page)/banner-image-member.jpg" />
-      <BannerContainer>
+      <BannerBackground image="/images/(location-page)/banner-image-member.jpg" />
+      <BannerContainer className="bg-dark/50">
         <BannerContent className="md:space-y-6">
           <BannerDescription className="text-lg uppercase md:text-xl">
             <p>Become a Member</p>

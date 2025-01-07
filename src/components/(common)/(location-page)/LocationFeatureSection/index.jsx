@@ -21,7 +21,7 @@ const LocationFeatureSection = () => {
           </p>
           <br />
           <br />
-          <ul className="list-disc space-y-4">
+          <ul className="ml-4 list-outside list-disc space-y-4">
             <li>New York</li>
             <li>Los Angeles</li>
             <li>The Hamptons</li>

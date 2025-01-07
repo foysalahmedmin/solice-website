@@ -1,3 +1,4 @@
+import ButtonLink from "@/components/partials/Buttons/ButtonLink";
 import {
   BannerBackground,
   BannerContainer,
@@ -7,27 +8,27 @@ import {
   BannerTitle,
 } from "@/components/partials/Sections/BannerSection";
 
-const TeamBannerSection = () => {
+const LongevityBannerSection = () => {
   return (
     <BannerSection>
       <BannerBackground
         //  iframe="https://player.vimeo.com/video/844556204?h=83f2a719c2&autoplay=1&loop=1&muted=1&background=1"
-        image="/images/(team-page)/banner-image.jpg"
+        // image="/images/(home-page)/banner-image.jpg"
+        className="bg-[#afcad6]"
       />
       <BannerContainer>
         <BannerContent>
-          <BannerTitle>The First of its Kind</BannerTitle>
+          <BannerTitle>Unlock Your Body’s Secrets</BannerTitle>
           <BannerDescription>
-            <p>
-              A fully integrated approach for absolute medical peace of mind. We
-              combine the conventional, therapeutic, and cutting edge delivered
-              by best-in-class clinical leaders.
-            </p>
+            <p>Listening to every aspect-to optimise your lifespan</p>
           </BannerDescription>
+          <div>
+            <ButtonLink to="/contact-us">Enquire Here</ButtonLink>
+          </div>
         </BannerContent>
       </BannerContainer>
     </BannerSection>
   );
 };
 
-export default TeamBannerSection;
+export default LongevityBannerSection;

@@ -4,16 +4,68 @@ const ServiceFeatureSection = () => {
   const data = [
     {
       image: "/images/(service-page)/feature-1.jpg",
-      title: "Reconnect",
+      title: "Your Longevity",
       description: (
         <>
           <p>
-            We create out-of-this-world bespoke therapies and experiences that
-            transcend the ordinary.
-            <br /> <br />
-            Immersive experiences designed to restore and reignite your health,
-            brought to you in your home or held at one of our world class
-            properties.
+            Led by true luminary, Dr Tam Lewis, SOLICE Longevity delivers
+            meaningful change with small day-to-day tweaks rather than grand
+            about turns.
+            <br />
+            <br />
+            Targeted diagnostics that avoid formulae and are tailored to each
+            member to assess, understand and modify; ensuring a life lived not
+            simply longer, but better.
+            <br />
+            <br />
+            Your physical and emotional wellness is supported with a menu of the
+            most advanced biohacking and in-house therapies.
+            <br />
+            <br />
+            Be it healthspan strategies, perfecting your performance or avoiding
+            genetic risks, longevity medicine is always results-focused and life
+            enhancing.
+          </p>
+        </>
+      ),
+    },
+    {
+      image: "/images/(service-page)/feature-2.jpg",
+      title: "Your GP",
+      description: (
+        <>
+          <p>
+            We offer the services of a GP and more.
+            <br />
+            <br />
+            It’s a life-long relationship; trusted and transparent to provide
+            thoughtful care, with a deep understanding of you and your
+            lifestyle.
+            <br />
+            <br />
+            Members receive unlimited access to their doctor 24-hours a day,
+            seven days a week. Whether at-home, online or from our Mayfair
+            clinic; referrals are immediate, unbiased, and bespoke to you
+          </p>
+        </>
+      ),
+    },
+    {
+      image: "/images/(service-page)/feature-3.jpg",
+      title: "Your Concierge",
+      description: (
+        <>
+          <p>
+            A 24-hour medical concierge for every need. Multilingual and
+            proactive, providing full health administration from insurance
+            liaison to appointment scheduling, our concierge underpins your
+            membership.
+            <br />
+            <br />
+            Always reliable, always discreet. Whether it’s hand delivering
+            medication to Doha, emergency evacuation from Costa Rica or creating
+            a confidential repository of your results; our concierge provides
+            support and ensures a seamless service.
           </p>
         </>
       ),

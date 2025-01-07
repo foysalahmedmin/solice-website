@@ -1,3 +1,4 @@
+import useScreenSize from "@/hooks/ui/useScreenSize";
 import { cn } from "@/lib/utils";
 import { forwardRef } from "react";
 
@@ -17,6 +18,7 @@ BannerSection.displayName = "BannerSection";
 
 const BannerBackground = forwardRef(
   ({ className, image, video, iframe, ...props }, ref) => {
+    const { width } = useScreenSize();
     return (
       <div
         className={cn(
@@ -44,13 +46,18 @@ const BannerBackground = forwardRef(
           />
         )}
         {iframe && (
-          <iframe
-            className="size-full object-cover object-center"
-            src={iframe}
-            allow="autoplay; fullscreen"
-            allowFullScreen
-            frameBorder="0"
-          />
+          <div className="absolute left-1/2 top-1/2 -z-10 size-full -translate-x-1/2 -translate-y-1/2 overflow-hidden">
+            <iframe
+              src={iframe}
+              width={width * 1}
+              height={((width * 1) / 16) * 9}
+              frameBorder="0"
+              allow="autoplay; fullscreen"
+              allowFullScreen
+              data-ready="true"
+              className="elementor-background-video-embed aspect-video"
+            ></iframe>
+          </div>
         )}
       </div>
     );
@@ -58,16 +65,18 @@ const BannerBackground = forwardRef(
 );
 BannerBackground.displayName = "BannerBackground";
 
-const BannerContainer = forwardRef(({ className, ...props }, ref) => {
+const BannerContainer = forwardRef(({ className, children, ...props }, ref) => {
   return (
     <div
       className={cn(
-        "container flex flex-1 items-center justify-center py-16 md:py-24",
+        "flex w-full flex-1 items-center justify-center py-16 md:py-24",
         className,
       )}
       ref={ref}
       {...props}
-    />
+    >
+      <div className="container">{children}</div>
+    </div>
   );
 });
 BannerContainer.displayName = "BannerContainer";

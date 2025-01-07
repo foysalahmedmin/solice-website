@@ -10,11 +10,8 @@ import {
 const ExperienceBannerSection = () => {
   return (
     <BannerSection className="dark">
-      <BannerBackground
-        //  iframe="https://player.vimeo.com/video/844556204?h=83f2a719c2&autoplay=1&loop=1&muted=1&background=1"
-        image="/images/(experience-page)/banner-image.jpg"
-      />
-      <BannerContainer>
+      <BannerBackground image="/images/(experience-page)/banner-image.jpg" />
+      <BannerContainer className="bg-dark/50">
         <BannerContent>
           <BannerTitle>Imagine the Unimaginable</BannerTitle>
           <BannerDescription>

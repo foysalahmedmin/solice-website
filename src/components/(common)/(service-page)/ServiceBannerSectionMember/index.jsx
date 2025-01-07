@@ -11,13 +11,13 @@ import {
 const ServiceBannerSectionMember = () => {
   return (
     <BannerSection className="dark">
-      <BannerBackground image="/images/(home-page)/banner-image-member.jpg" />
-      <BannerContainer>
+      <BannerBackground image="/images/(service-page)/banner-image-member.jpg" />
+      <BannerContainer className="bg-dark/50">
         <BannerContent className="md:space-y-6">
           <BannerDescription className="text-lg uppercase md:text-xl">
             <p>Become a Member</p>
           </BannerDescription>
-          <BannerTitle>Healthcare as it Should be</BannerTitle>
+          <BannerTitle>The Art of the Possible</BannerTitle>
           <BannerDescription className="text-lg md:text-xl">
             <p>GP | LONGEVITY | CONCIERGE</p>
           </BannerDescription>

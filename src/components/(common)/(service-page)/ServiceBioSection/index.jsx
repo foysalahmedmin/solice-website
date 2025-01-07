@@ -11,21 +11,19 @@ const ServiceBioSection = () => {
     <BioSection className="bg-card">
       <BioContainer>
         <BioContent>
-          <BioTitle>Elevate Your Health</BioTitle>
+          <BioTitle>Absolute peace of mind</BioTitle>
           <BioDescription>
             <p>
-              We offer members restorative health experiences, curating an
-              entirely personalised programme built around you and your health
-              needs
+              A seamless experience bringing the very best in clinical
+              excellence to you. Our attention elevates the concept of
+              personalised healthcare to an entirely new level.
             </p>
           </BioDescription>
           <BioDescription>
             <p>
-              A medical retreat in a luxury Italian villa. Biohacking in the
-              Indian Ocean. Private breathwork accompanied by our harpist or
-              acupuncture combined with the gong.
-              <br />
-              <br />
+              nterlinking spheres to address every heath need and explore every
+              healthspan advance; all underpinned by your on-hand concierge
+              team.
             </p>
           </BioDescription>
         </BioContent>

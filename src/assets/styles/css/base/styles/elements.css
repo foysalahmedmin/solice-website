@@ -10,7 +10,7 @@
 }
 
 html {
-  @apply selection:bg-tertiary selection:text-tertiary-foreground;
+  @apply selection:bg-dark selection:text-light;
   scroll-behavior: smooth;
   scroll-padding-top: theme("scrollPadding.16");
   font-size: 16px;

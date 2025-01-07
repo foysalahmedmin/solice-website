@@ -2,7 +2,6 @@ import LocationBannerSection from "@/components/(common)/(location-page)/Locatio
 import LocationBannerSectionMember from "@/components/(common)/(location-page)/LocationBannerSectionMember";
 import LocationBioSection from "@/components/(common)/(location-page)/LocationBioSection";
 import LocationFeatureSection from "@/components/(common)/(location-page)/LocationFeatureSection";
-import ServiceBannerSectionMember from "@/components/(common)/(service-page)/ServiceBannerSectionMember";
 
 const LocationPage = () => {
   return (
@@ -22,7 +21,6 @@ const LocationPage = () => {
         </div>
       </section>
       <LocationFeatureSection />
-      <ServiceBannerSectionMember />
       <LocationBannerSectionMember />
     </main>
   );
