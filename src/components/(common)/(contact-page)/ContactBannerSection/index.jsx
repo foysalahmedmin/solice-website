@@ -16,7 +16,7 @@ const ContactBannerSection = () => {
       />
       <BannerContainer className="bg-dark/25">
         <BannerContent>
-          <BannerTitle>Welcome to SOLICE</BannerTitle>
+          <BannerTitle>Welcome to ARKangel Clinic</BannerTitle>
           <BannerDescription>
             <p>
               To experience 21st century healthcare, contact us to enquire about

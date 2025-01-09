@@ -21,7 +21,7 @@ const SeasonalBannerSection = () => {
           <BannerTitle>Seasonal Care</BannerTitle>
           <BannerDescription>
             <p>
-              A deep dive into SOLICE longevity therapies or access to GP care
+              A deep dive into ARKangel Clinic longevity therapies or access to GP care
               for three months of the year.
             </p>
           </BannerDescription>

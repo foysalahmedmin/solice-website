@@ -28,11 +28,11 @@ const routes = [
         path: "/experiences",
         text: "Transcend the Ordinary to Reignite Your Health",
       },
-      {
-        label: "Team",
-        path: "/team",
-        text: "Clinician Founded with Recognised Experts",
-      },
+      // {
+      //   label: "Team",
+      //   path: "/team",
+      //   text: "Clinician Founded with Recognised Experts",
+      // },
     ],
   },
   {
@@ -86,11 +86,11 @@ const routesMobile = [
     path: "/experiences",
     text: "Transcend the Ordinary to Reignite Your Health",
   },
-  {
-    label: "Team",
-    path: "/team",
-    text: "Clinician Founded with Recognised Experts",
-  },
+  // {
+  //   label: "Team",
+  //   path: "/team",
+  //   text: "Clinician Founded with Recognised Experts",
+  // },
   {
     label: "Individual & Family GP",
     path: "/individual-family-gp",

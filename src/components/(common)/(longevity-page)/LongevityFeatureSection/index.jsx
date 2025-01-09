@@ -9,7 +9,7 @@ const LongevityFeatureSection = () => {
         <>
           <p>
             Our philosophy is rooted in integration and providing best-in-class
-            experts alongside your SOLICE GP. Longevity is led by Dr Tam Lewis,
+            experts alongside your ARKangel Clinic GP. Longevity is led by Dr Tam Lewis,
             a true luminary who weaves together her vast expertise as a medical
             doctor, nutritional specialist, and world-class endurance athlete.
             <br /> <br />

@@ -16,7 +16,7 @@ const IndividualFamilyPage = () => {
               with having the time and caring enough to consider people’s
               individual needs.”
             </p>
-            <p>Arabella, SOLICE Nurse</p>
+            <p>Arabella, ARKangel Clinic Nurse</p>
           </div>
         </div>
       </section>

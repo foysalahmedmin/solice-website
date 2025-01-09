@@ -51,7 +51,7 @@ export const routes = [
             element: <TreatmentPage />,
           },
           {
-            path: "/location",
+            path: "/locations",
             element: <LocationPage />,
           },
           {

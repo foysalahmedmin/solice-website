@@ -14,7 +14,7 @@ const IndividualFamilyBioSection = () => {
           <BioTitle>The Evolution of Healthcare</BioTitle>
           <BioDescription>
             <p>
-              SOLICE GP memberships go far beyond prescriptions, medication and
+              ARKangel Clinic GP memberships go far beyond prescriptions, medication and
               reactive care.
             </p>
           </BioDescription>

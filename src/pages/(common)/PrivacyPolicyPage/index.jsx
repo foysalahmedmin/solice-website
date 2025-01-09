@@ -16,7 +16,7 @@ const PrivacyPolicyPage = () => {
           <div className="content space-y-4 md:space-y-6">
             <p>Privacy Notice</p>
             <p>
-              Solice Health Ltd (SOLICE) is a private GP service providing a
+              ARKangel Clinic Health Ltd (ARKangel Clinic) is a private GP service providing a
               range of specialist services, functional medicine support and
               wrap-around medical concierge care. We are committed to being open
               and transparent about how we collect and use data and to meeting
@@ -99,15 +99,15 @@ const PrivacyPolicyPage = () => {
                 processed and where that is the case, gain access to the
                 personal data;
               </li>
-              <li>Require Solice to rectify incorrect or incomplete data;</li>
+              <li>Require ARKangel Clinic to rectify incorrect or incomplete data;</li>
               <li>
-                require Solice to erase or stop processing your data, for
+                require ARKangel Clinic to erase or stop processing your data, for
                 example where the data is no longer necessary for the purposes
                 of processing; however please note that we are required by law
                 to retain certain medical data
               </li>
               <li>
-                object to the processing of your data where Solice is relying on
+                object to the processing of your data where ARKangel Clinic is relying on
                 its legitimate interests as the legal ground for processing.
               </li>
               <li>
@@ -118,7 +118,7 @@ const PrivacyPolicyPage = () => {
             </ul>
             <p>
               If you would like to exercise any of these rights, please contact
-              contact@solice.health. We will ask you to provide documentation to
+              contact@ARKangel Clinic.health. We will ask you to provide documentation to
               confirm your identity or, if you are acting on behalf of another
               individual, we will ask you for proof of their consent or your
               legal right to receive their personal information.
@@ -159,7 +159,7 @@ const PrivacyPolicyPage = () => {
                 and time of access and information on how you use our website;
               </li>
               <li>
-                information you give to Solice when submitting a contact form
+                information you give to ARKangel Clinic when submitting a contact form
               </li>
               <li>
                 We may also collect technical data via Google Analytics, however
@@ -202,7 +202,7 @@ const PrivacyPolicyPage = () => {
                 out;
               </li>
               <li>
-                to send you relevant information about Solice, our products and
+                to send you relevant information about ARKangel Clinic, our products and
                 services
               </li>
             </ul>
@@ -218,7 +218,7 @@ const PrivacyPolicyPage = () => {
             </p>
             <p>Who do we share your data with?</p>
             <p>
-              Your data may be shared internally within Solice and our employees
+              Your data may be shared internally within ARKangel Clinic and our employees
               (including contractors and freelance individuals) who may view
               your data as part of their job role. We store your data on Semble
               and share your data with WordPress, the providers of our online
@@ -335,14 +335,14 @@ const PrivacyPolicyPage = () => {
               <li>review the care we provide through audit;</li>
               <li>train and educate members of staff;</li>
               <li>
-                send you relevant information about Solice, our products and
+                send you relevant information about ARKangel Clinic, our products and
                 services
               </li>
             </ul>
             <p>Invoice Payments</p>
             <p>
-              By settling an invoice issued by Solice, you agree to engage with
-              Solice and thus consent to our Privacy Policy, including the
+              By settling an invoice issued by ARKangel Clinic, you agree to engage with
+              ARKangel Clinic and thus consent to our Privacy Policy, including the
               storage and use of your data as described above.
             </p>
             <p>Data Retention</p>
@@ -382,12 +382,12 @@ const PrivacyPolicyPage = () => {
               newsletters, any changes to our services, our opening hours of our
               practice and other relevant information related to ours and
               partner services. Please let us know if you do not wish to receive
-              email correspondence from us by contact contact@solice.health
+              email correspondence from us by contact contact@ARKangel Clinic.health
             </p>
             <p>Complaints and Compliments</p>
             <p>
               If you have concerns or are unhappy about any of our services, or
-              to pass on compliments please contact contact@solice.health or
+              to pass on compliments please contact contact@ARKangel Clinic.health or
               speak to us directly.
             </p>{" "}
           </div>

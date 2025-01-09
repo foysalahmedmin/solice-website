@@ -21,7 +21,7 @@ const ContactDetails = () => {
               <div className="grid grid-cols-2 gap-4 gap-y-6">
                 <label className="flex flex-col space-y-2 self-stretch">
                   <span className="block grow uppercase">
-                    REASON FOR CONTACTING SOLICE
+                    REASON FOR CONTACTING ARKangel Clinic
                   </span>
                   <select className="h-form-control w-full border-b border-b-foreground bg-transparent outline-none">
                     <>
@@ -66,7 +66,7 @@ const ContactDetails = () => {
                 </label>
                 <label className="flex flex-col space-y-2 self-stretch">
                   <span className="block grow uppercase">
-                    DO YOU CONSENT FOR SOLICE TO CONTACT YOU?
+                    DO YOU CONSENT FOR ARKangel Clinic TO CONTACT YOU?
                   </span>
                   <select className="h-form-control w-full border-b border-b-foreground bg-transparent outline-none">
                     <>
@@ -310,11 +310,11 @@ const ContactDetails = () => {
                 </label>
                 <label className="flex flex-col space-y-2 self-stretch md:col-span-2">
                   <span className="block grow uppercase">
-                    WHERE DID YOU HEAR ABOUT SOLICE?{" "}
+                    WHERE DID YOU HEAR ABOUT ARKangel Clinic?{" "}
                   </span>
                   <select className="h-form-control w-full border-b border-b-foreground bg-transparent outline-none">
                     <>
-                      <option value="Solice website">Solice website</option>
+                      <option value="ARKangel Clinic website">ARKangel Clinic website</option>
                       <option value="Newsletter">Newsletter</option>
                       <option value="Social media">Social media</option>
                       <option value="Article">Article</option>
@@ -335,7 +335,7 @@ const ContactDetails = () => {
                 <label className="flex items-center gap-4">
                   <input type="checkbox" className="checkbox" />
                   <span>
-                    I HAVE READ AND UNDERSTOOD THE SOLICE PRIVACY POLICY
+                    I HAVE READ AND UNDERSTOOD THE ARKangel Clinic PRIVACY POLICY
                   </span>
                 </label>
               </div>

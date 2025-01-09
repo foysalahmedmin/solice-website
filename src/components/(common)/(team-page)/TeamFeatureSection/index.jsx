@@ -19,7 +19,7 @@ const TeamFeatureSection = () => {
             cells for healing which prompted her passion for harnessing science
             and art to achieve true modern wellbeing. From here, Dr
             Osagie-Clouard pioneered an emerging model in personalised,
-            preventative healthcare and SOLICE was born.
+            preventative healthcare and ARKangel Clinic was born.
           </p>
         </>
       ),

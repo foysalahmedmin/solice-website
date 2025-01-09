@@ -15,7 +15,7 @@ const LocationFeatureSection = () => {
             partners, ensuring we provide you the best care wherever you are.
             <br />
             <br />
-            We have partnered with SOLLIS Health, the leading medical concierge
+            We have partnered with ARKangel Clinic Health, the leading medical concierge
             in the United States for members’-only 24/7 medical care across the
             United States, including:
           </p>
