@@ -14,14 +14,14 @@ const AboutBioSection = () => {
           <BioTitle>DEDICATED TO YOU​</BioTitle>
           <BioDescription>
             <p>
-              Founded by Dr Liza Osagie-Clouard MD PhD, an award-winning
+              Founded by an award-winning
               orthopaedic surgeon.
             </p>
           </BioDescription>
           <BioDescription>
             <p>
               Our commitment to excellence has seen us partner with renowned
-              longevity expert, Dr Tamsin Lewis, to deliver the most
+              longevity expert to deliver the most
               comprehensive and holistic approach to modern health and
               longevity.
             </p>

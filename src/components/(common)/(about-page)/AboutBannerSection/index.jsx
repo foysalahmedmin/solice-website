@@ -29,9 +29,9 @@ const AboutBannerSection = () => {
           <BannerDescription className="text-lg md:text-xl">
             <p>GP | LONGEVITY | CONCIERGE</p>
           </BannerDescription>
-          <div>
+          {/* <div>
             <ButtonLink to="/team">Meet our team</ButtonLink>
-          </div>
+          </div> */}
         </BannerContent>
       </BannerContainer>
     </BannerSection>

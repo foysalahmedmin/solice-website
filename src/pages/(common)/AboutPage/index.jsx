@@ -16,7 +16,7 @@ const AboutPage = () => {
               understand. to restore health, and reverse disease. Put simply, we
               optimise and advocate every aspect of your health.”
             </p>
-            <p>Dr Liza Osagie-Clouard</p>
+            {/* <p>Dr Liza Osagie-Clouard</p> */}
           </div>
         </div>
       </section>

@@ -11,7 +11,6 @@ import LongevityPage from "@/pages/(common)/LongevityPage";
 import PrivacyPolicyPage from "@/pages/(common)/PrivacyPolicyPage";
 import SeasonalPage from "@/pages/(common)/SeasonalPage";
 import ServicePage from "@/pages/(common)/ServicePage";
-import TeamPage from "@/pages/(common)/TeamPage";
 import TermsPage from "@/pages/(common)/TermsPage";
 import TreatmentPage from "@/pages/(common)/TreatmentPage";
 
@@ -58,10 +57,10 @@ export const routes = [
             path: "/experiences",
             element: <ExperiencePage />,
           },
-          {
-            path: "/team",
-            element: <TeamPage />,
-          },
+          // {
+          //   path: "/team",
+          //   element: <TeamPage />,
+          // },
           {
             path: "/individual-family-gp",
             element: <IndividualFamilyPage />,
