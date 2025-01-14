@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 
 export const SplitCard = ({ className, item, ...props }) => {
-  const { image, title, description } = item;
+  const { image, title, description, link } = item;
   return (
     <div
       className={cn(
@@ -22,6 +22,12 @@ export const SplitCard = ({ className, item, ...props }) => {
       <div className="space-y-6 md:flex-1">
         <div className="">{title && <h2>{title}</h2>}</div>
         {description && <div className="mt-4 text-lg">{description}</div>}
+        <a
+          href={link || "#"}
+          className="inline-block rounded-full bg-primary px-8 py-4 text-lg font-medium text-white transition-all hover:bg-primary/90"
+        >
+          Learn More
+        </a>
       </div>
     </div>
   );
